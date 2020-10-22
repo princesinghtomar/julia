@@ -131,7 +131,6 @@ jl_value_t **const*const get_tags(void) {
         INSERT_TAG(jl_llvmpointer_typename);
         INSERT_TAG(jl_array_typename);
         INSERT_TAG(jl_type_typename);
-        INSERT_TAG(jl_vararg_typename);
         INSERT_TAG(jl_namedtuple_typename);
         INSERT_TAG(jl_vecelement_typename);
 
